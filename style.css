@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #eaf2f2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.time-display {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.time-display h1 {
+  font-size: 48px;
+  margin: 0;
+  color: #333;
+}
+
+.time-display h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #666;
+}
+.completed {
+  text-decoration: line-through; /* Strikes through completed tasks */
+  color: gray; /* Optional: Change the text color */
+}
+
+#task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#new-task {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.add-task-btn {
+  background-color: #76c7c0;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-task-btn img {
+  width: 15px;
+  height: auto;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#task-list li .task-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.task-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.task-buttons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.task-buttons img {
+  width: 18px;
+  height: auto;
+}
+
+button.edit-btn img {
+  background-color: #76c7c0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button.delete-btn img {
+  background-color: #ff6b6b;
+  padding: 5px;
+  border-radius: 5px;
+}
+#black-bg {
+  bottom: 0;
+}

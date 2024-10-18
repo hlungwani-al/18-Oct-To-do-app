@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do App</title>
+  </head>
+  <body>
+    <section class="container" id="container">
+      <div class="time-display">
+        <br />
+        <h1 id="time"></h1>
+        <h3>Ready to get started?</h3>
+      </div>
+
+      <div id="task-container">
+        <input type="text" id="new-task" placeholder="ENTER TASK..." />
+        <button id="add-task" class="add-task-btn">
+          <img width="15px" src="./icons/plus.png" title="add button" />
+        </button>
+        <ul id="task-list">
+          <!-- Items will be added here -->
+        </ul>
+      </div>
+      <!--
+        <button class="add-task-btn" id="black-bg" onclick="pinkBg()">Pink Bg</button>
+        <button class="add-task-btn" id="black-bg" onclick="yellowBg()">Yellow Bg</button>
+        <button class="add-task-btn" id="black-bg" onclick="cyanBg()">Cyan Bg</button>
+        <button class="add-task-btn" id="black-bg" onclick="defaultBg()">Default Bg</button>
+        -->
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
